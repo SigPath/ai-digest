@@ -8,7 +8,7 @@ on:
     branches: [main]
 
 permissions:
-  contents: read
+  contents: write   # commit seen.json
   pages: write
   id-token: write
 
